@@ -1,3 +1,23 @@
+
+
+
+
+
+/* WARNING: SPOILERS! DO NOT LOOK CLOSELY AT THIS FILE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // We assign the roles in order and then just keep repeating the last one
 // if we run out.
 
