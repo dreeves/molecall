@@ -1,2 +1,1 @@
-# molecall
-Spyfall clone for friends/family
+URL: molecall.com

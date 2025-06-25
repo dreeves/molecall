@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MoleCall (our clone of / variation on Spyfall)</title>
+<meta name="description" content="Role-playing (mole-playing) game"/>
+<link rel="canonical" href="https://www.molecall.com"/>
+<link id="favicon" rel="icon" 
+      href="https://cdn.glitch.com/bee3c384-af4e-4a4e-8c15-8495ed51b70b%2Fmole.png?1543035666537" 
+      type="image/x-icon"/>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="/style.css"/>
+<script src="/client.js" defer></script>
+</head>
+
+<body>
+<h1>MoleCall</h1>
+
+<div id="dashboard" style="display:none">
+<form id="npform" autocomplete="off">
+<input name="players" type="text" maxlength="5" 
+       placeholder="number of players" 
+       aria-labelledby="submit-players">
+<button class="button" type="submit" 
+        id="submit-players">Start The Game</button>
+</form>
+</div>
+
+<hr>
+      
+<h3>
+Don't click this during the game:
+</h3>
+<input class="button" style="height:200px"
+       type="button" value="Refresh Page" 
+       onclick="window.location.reload()">
+
+<br>&nbsp;<br>
+
+<hr>
+
+<h3>
+Instructions
+</h3>
+
+<p>
+As soon as the number of players is entered, the next <i>that-many</i> people to refresh this page will be told a location and their role at that location.
+</p>
+<p>
+Except the mole. 
+One player is randomly chosen to be the mole and doesn't know the location and has to guess it based on what the other players say. 
+The other players can convince each other that they're not the mole by saying enough to prove they know the location but not so much that they give the location away to the mole.
+</p>
+<p>
+The game ends when the mole calls out a guess for the location, or when everyone is ready to accuse whoever they think the mole is. 
+You can use a timer and when it runs out everyone has to make an accusation, ready or not.
+You make your accusation by pointing at someone and when all fingers are pointed, the mole reveals themself.
+The mole then has their last chance to guess the location.
+</p>
+<p>
+Gameplay summary:
+<ol>
+<li>Call out like "I'm player 2 of 4 in game 1" to confirm everyone has their roles</li>
+<li>Poker faces when learning your role!</li>
+<li>Grill everyone on what they know, act out the scene at the location</li>
+<li>Do lots of finger-pointing and get everyone to agree to make accusations</li>
+<li>Or end it early if you're the mole by declaring your guess for the location</li>
+</ol>
+</p>
+
+<!-- We haven't really figured out a good way to score the game yet...
+
+<h3>
+Scoring
+</h3>
+
+<p>
+The mole loses by being unanimously accused.
+
+  In that case the person who initiated the accusation gets 2 points and everyone else (except the mole, of course) gets 1 point.
+</p>
+<p>
+Otherwise, the mole wins.
+They get 2 points if they're not unaminously accused.
+If someone <i>else</i> is unanimously accused, they get 4 points.
+The mole also gets 4 points if they stop the round early by correctly guessing the location.
+</p>
+-->
+
+<!-- Our attempt at scoring with tokens that didn't work well...
+<p>
+Everyone starts with 5 tokens (or beads or pennies or whatever).
+The mole has to pay a token to each person who figures them out, unless they guess the location before official accusations.
+And if the mole guesses the location (early or after accusations, doesn't matter) then <i>everyone</i> pays them a token.
+</p>
+<p>
+<i>Optional: If you falsely accuse someone of being the mole, you have to pay them a token. This makes the game harder and sneakier, when people want to be mistaken for the mole. The mole accusing someone doesn't count of course.</i>
+</p>
+<p>
+Scoring summary:
+<ol>
+<li>mole pays for being found out</li>
+<li>everyone pays mole for guessing location</li>
+<li>optionally, pay who you falsely accuse</li>
+</ol>
+</p>
+-->
+
+<img
+src="https://cdn.glitch.com/bee3c384-af4e-4a4e-8c15-8495ed51b70b%2Fmole.png?1543035666537"/>
+
+<!--
+open question: as players get good, do they all end up trying to be falsely accused and not revealing any useful information at all?
+in that case the mole would essentially never guess the location but also only be accused by one person on average.
+if everyone else is playing that strategy then deviating just means you help the mole figure it out and prevent people from falsely accusing you.
+(as the mole you aren't able to deviate from that strategy)
+-->
+
+<footer>
+Made by the Soule-Reeves family based on the game Spyfall
+</footer>
+
+</body>
+</html>
