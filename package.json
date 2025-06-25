@@ -1,6 +1,6 @@
 {
   "name": "molecall",
-  "version": "2025.06.25-d",
+  "version": "2025.06.25-e",
   "description": "Role-playing game based on Spyfall",
   "main": "server.js",
   "scripts": {
