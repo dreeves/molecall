@@ -1,6 +1,6 @@
 {
   "name": "molecall",
-  "version": "2025.06.24-a",
+  "version": "2025.06.25-d",
   "description": "Role-playing game based on Spyfall",
   "main": "server.js",
   "scripts": {
@@ -11,15 +11,13 @@
     "body-parser": "^2.2.0"
   },
   "engines": {
-    "node": "16"
+    "node": "24"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/molecall"
+    "url": "https://github.com/dreeves/molecall"
   },
   "license": "MIT",
   "keywords": [
-    "node",
-    "glitch",
-    "express"
+    "node", "games"
   ]
 }
