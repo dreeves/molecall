@@ -138,6 +138,7 @@ exports.lh = [ // a list of hashes
   "Drone",
 ]},
 
+/*
 { // ------------------------------------------------------------------------
 "location": "The Beeminder forum",
 "roles": [
@@ -149,7 +150,9 @@ exports.lh = [ // a list of hashes
   "shanaqui",
   "A brand new newbee",
 ]},
+*/
 
+/*
 { // ------------------------------------------------------------------------
 "location": "#supsup (Beeminder's private chat for support workerbees)",
 "roles": [
@@ -157,6 +160,7 @@ exports.lh = [ // a list of hashes
   "A user we're complaining about who's oblivious to the existence of #supsup",
   "Brand new clueless support workerbee",
 ]},
+*/
 
 { // ------------------------------------------------------------------------
 "location": "Hogwarts (school in the Harry Potter books)",
@@ -231,6 +235,7 @@ exports.lh = [ // a list of hashes
   "Peasant",
 ]},
 
+/*
 { // ------------------------------------------------------------------------
 "location": "The Soulestead (Bethany's parents' house)",
 "roles": [
@@ -238,14 +243,18 @@ exports.lh = [ // a list of hashes
   "Judy",
   "Neighbor",
 ]},
-  
+*/
+
+/*
 { // ------------------------------------------------------------------------
 "location": "Skate race",
 "roles": [
   "Announcer",
   "Skater",
 ]},
-  
+*/
+
+/*
 { // ------------------------------------------------------------------------
 "location": "CaMelot (Faire and Cantor's cousins' house in California)",
 "roles": [
@@ -256,6 +265,7 @@ exports.lh = [ // a list of hashes
   "Eric (youngest child)",
   "Houseguest",
 ]},
+*/
 
 { // ------------------------------------------------------------------------
 "location": "A chicken (as in the animal)",
@@ -266,6 +276,7 @@ exports.lh = [ // a list of hashes
   "A feather",
 ]},
 
+/*
 { // ------------------------------------------------------------------------
 "location": "The Pony Palace (Erica and Stephen's house)",
 "roles": [
@@ -274,7 +285,9 @@ exports.lh = [ // a list of hashes
   "Iggy (the dog)",
   "Houseguest",
 ]},
+*/
 
+/*
 { // ------------------------------------------------------------------------
 "location": "Climbatron (Faire and Cantor and cousins' tree house tree club)",
 "roles": [
@@ -285,8 +298,10 @@ exports.lh = [ // a list of hashes
   "Eric",
   "The trunk of the tree",
   "A tree branch",
- ]},
-  
+]},
+*/
+
+/*
 { // ------------------------------------------------------------------------
 "location": "A-WOL Dance (Faire's aerial silks gym)",
 "roles": [
@@ -299,7 +314,8 @@ exports.lh = [ // a list of hashes
   "Trapeze (a metal bar attatched to two ropes)",
   "Lyra (a metal cirle)",
   "A student",
-  ]},
+]},
+*/
   
 /*
 { // ------------------------------------------------------------------------
@@ -367,6 +383,7 @@ exports.lh = [ // a list of hashes
   "A speck of dust",
   ]},
 
+/*
 { // ------------------------------------------------------------------------
 "location": "Keeper of the Lost Cities universe (Faire's favorite book series that's kind of like Harry Potter but with elves)",
 "roles": [
@@ -376,6 +393,7 @@ exports.lh = [ // a list of hashes
   "Fitz (The main character's friend, a telepath)",
   "A gnome",
 ]},
+*/
   
 { // ------------------------------------------------------------------------
 "location": "Sailboat",
@@ -448,6 +466,7 @@ exports.lh = [ // a list of hashes
   "Website user",
 ]},
 
+/*
 { // ------------------------------------------------------------------------
 "location": "Timberline Lodge (ski resort at Mt Hood in Oregon)",
 "roles": [
@@ -455,7 +474,9 @@ exports.lh = [ // a list of hashes
   "A snowboarder",
   "A snowflake",
 ]},
+*/
 
+/*
 { // ------------------------------------------------------------------------
 "location": "Beesnest (the Soule-Reeveses' house)",
 "roles": [
@@ -465,6 +486,7 @@ exports.lh = [ // a list of hashes
   "Cantor",
   "A Beeminder fan",
 ]},
+*/
 
 { // ------------------------------------------------------------------------
 "location": "The Moon",
@@ -512,6 +534,7 @@ exports.lh = [ // a list of hashes
   "Redshirt (a character who's not very important and is probably going to get killed by aliens or something)",
 ]},
 
+/*
 { // ------------------------------------------------------------------------
 "location": "Oaks Park skating rink (where we do indoor inline speedskating)",
 "roles": [
@@ -520,6 +543,7 @@ exports.lh = [ // a list of hashes
   "Cantor",
   "A new slow skater",
 ]},
+*/
 
 { // ------------------------------------------------------------------------
 "location": "Shower",
@@ -711,16 +735,16 @@ exports.lh = [ // a list of hashes
 "location": "Molehill (mound of dirt from a mole digging a tunnel)",
 "roles": [
   "The literal animal, mole (not the mole in the game)",
+  "The spouse of the molehill's mole (who is also a literal mole but not the mole in the game)",
   "Clump of dirt",
 ]},
 
-/* 
-Getting rid of this one because we might be at, say, the Beesnest and then there
-are kind of two correct answers -- "the room you are in" and "the Beesnest".
+/* This one might be quite confusing if the room you're playing in is one of the
+possible locations */
+{ // ------------------------------------------------------------------------
 "location": "The room you are in",
 "roles":[
   "You are you",
 ]},  
-*/
 
 ] // this marks the end of the list of locations
